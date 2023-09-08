@@ -14,6 +14,7 @@ namespace CleanArchitecture.Domain
         public string? Apellido { get; set; }
 
         public virtual ICollection<Video> Videos { get; set; }
+        public EventType EventType { get; set; }
 
     }
 }
